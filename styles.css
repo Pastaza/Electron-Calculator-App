@@ -1,6 +1,83 @@
-#testBtn {
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background: rgb(186, 27, 27);
+  user-select: none;
+  -webkit-app-region: drag;
+}
+
+.app {
+  padding: 16px;
+}
+
+button,
+input,
+textarea,
+select {
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+}
+
+#Btn7 {
+    font-size:      1.5rem;
     padding-top:    2px;
     padding-bottom: 2px;
-    padding-left:   5px;
-    padding-right:  5px;
+    padding-left:   10px;
+    padding-right:  10px;
+}
+
+#Btn8 {
+    font-size:      1.5rem;
+    padding-top:    2px;
+    padding-bottom: 2px;
+    padding-left:   10px;
+    padding-right:  10px;
+}
+
+
+#Btn9 {
+    font-size:      1.5rem;
+    padding-top:    2px;
+    padding-bottom: 2px;
+    padding-left:   10px;
+    padding-right:  10px;
+}
+
+#BtnClear {
+    font-size:      1.5rem;
+    padding-top:    2px;
+    padding-bottom: 2px;
+    padding-left:   10px;
+    padding-right:  10px;
+}
+
+#Btn4 {
+    font-size:      1.5rem;
+    padding-top:    2px;
+    padding-bottom: 2px;
+    padding-left:   10px;
+    padding-right:  10px;
+}
+
+#Btn5 {
+    font-size:      1.5rem;
+    padding-top:    2px;
+    padding-bottom: 2px;
+    padding-left:   10px;
+    padding-right:  10px;
+}
+
+#Btn6 {
+    font-size:      1.5rem;
+    padding-top:    2px;
+    padding-bottom: 2px;
+    padding-left:   10px;
+    padding-right:  10px;
 }
